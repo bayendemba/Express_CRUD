@@ -23,9 +23,7 @@ const userSchema = new mongoose.Schema({
     minlength: 5,
     maxlength: 1024
   },
-  isAdmin: Boolean  
-  // roles: [], 
-  // operations: [] 
+  isAdmin: Boolean
 });
 
 // ici on ne peut pas utiliser arrow function car il n'y pas (this)
