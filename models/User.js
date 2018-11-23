@@ -22,12 +22,18 @@ const userSchema = new mongoose.Schema({
     required: true,
     minlength: 5,
     maxlength: 1024
-  }
+  },
+  isAdmin: Boolean  
+  // roles: [], 
+  // operations: [] 
 });
 
 // ici on ne peut pas utiliser arrow function car il n'y pas (this)
-userSchema.methods.generateAuthToken = function() {
-  const token = jwt.sign({ _id: this._id }, config.get("jwtPrivateKey"));
+userSchema.methods.generateAuthToken = function () {
+  const token = jwt.sign({
+    _id: this._id,
+    isAdmin: this.isAdmin
+  }, config.get("jwtPrivateKey"));
   return token;
 }
 
