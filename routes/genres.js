@@ -10,7 +10,7 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
   const {
     error
-  } = validateGenre(req.body);
+  } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   let genre = new Genre({
@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const { error } = validateGenre(req.body);
+  const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   const genre = await Genre.findByIdAndUpdate(req.params.id, {
