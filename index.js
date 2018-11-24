@@ -15,6 +15,11 @@ const users = require("./routes/users");
 const auth = require("./routes/auth");
 const app = express();
 
+process.on("uncaughtException", (ex) => {
+    console.log("WE GOT AN UNCAUGHT EXCEPTION");
+    winston.error(ex.message, ex);
+});
+
 // winston 
 winston.add(winston.transports.File, {
     filename: "logfile.log"
@@ -24,6 +29,7 @@ winston.add(winston.transports.MongoDB, {
     level: "info"
 });
 
+throw new Error("Something failed during startup");
 
 // jwtPrivateKey Config
 if (!config.get("jwtPrivateKey")) {
