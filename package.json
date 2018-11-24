@@ -22,6 +22,6 @@
     "moment": "^2.22.2",
     "mongoose": "^5.3.11",
     "winston": "^2.4.0",
-    "winston-mongodb": "^4.0.3"
+    "winston-mongodb": "^3.0.0"
   }
 }
