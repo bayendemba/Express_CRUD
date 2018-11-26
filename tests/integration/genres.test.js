@@ -33,7 +33,9 @@ describe("/api/genres", () => {
 
   describe("GET /:id", () => {
     it("should return a genre if valid id is passed", async () => {
-      const genre = new Genre({ name: "genre1" });
+      const genre = new Genre({
+        name: "genre1"
+      });
       await genre.save();
 
       const res = await request(server).get("/api/genres/" + genre._id);
@@ -46,6 +48,16 @@ describe("/api/genres", () => {
       const res = await request(server).get("/api/genres/1");
 
       expect(res.status).toBe(404);
+    });
+  });
+
+  describe("POST /", () => {
+    it("should return 401 if client is not logged in ", async () => {
+      const res = await request(server)
+        .post("/api/genres")
+        .send({ name: "genre1" });
+
+      expect(res.status).toBe(401);
     });
   });
 });
