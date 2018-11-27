@@ -1,3 +1,4 @@
+const Joi = require("joi");
 const moment = require("moment");
 const { Rental } = require("../models/Rental");
 const { Movie } = require("../models/Movie");
@@ -28,5 +29,15 @@ router.post("/", auth, async (req, res) => {
 
   return res.status(200).send(rental);
 });
+
+
+function validateReturn(req) {
+  const schema = {
+    customerId: Joi.objectId().required(),
+    movieId: Joi.objectId().required()
+  };
+
+  return Joi.validate(req, schema);
+}
 
 module.exports = router;
