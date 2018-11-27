@@ -234,3 +234,45 @@
 {"level":"error","timestamp":"2018-11-27T17:24:10.697Z"}
 {"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:24:35.593Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:24:36.639Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:27:02.621Z"}
+{"level":"error","timestamp":"2018-11-27T17:27:02.755Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:27:03.710Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:27:15.879Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:27:16.913Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:27:31.918Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:27:33.054Z"}
+{"level":"error","timestamp":"2018-11-27T17:27:34.661Z"}
+{"level":"error","timestamp":"2018-11-27T17:27:35.058Z"}
+{"level":"error","timestamp":"2018-11-27T17:27:35.516Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:28:27.772Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:28:28.866Z"}
+{"level":"error","timestamp":"2018-11-27T17:28:30.185Z"}
+{"level":"error","timestamp":"2018-11-27T17:28:30.352Z"}
+{"level":"error","timestamp":"2018-11-27T17:28:30.566Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:28:39.593Z"}
+{"level":"error","timestamp":"2018-11-27T17:28:39.650Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:28:40.616Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:28:57.861Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:28:58.900Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:30:56.011Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:30:57.274Z"}
+{"message":"Rental is not defined","stack":"ReferenceError: Rental is not defined\n    at Rental (D:\\M1\\nodemosh\\routes\\returns.js:9:3)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\M1\\nodemosh\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:182:13)\n    at endReadableNT (_stream_readable.js:1094:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2018-11-27T17:30:57.453Z"}
+{"message":"Rental is not defined","stack":"ReferenceError: Rental is not defined\n    at Rental (D:\\M1\\nodemosh\\routes\\returns.js:9:3)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (D:\\M1\\nodemosh\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\M1\\nodemosh\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at D:\\M1\\nodemosh\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\M1\\nodemosh\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:182:13)\n    at endReadableNT (_stream_readable.js:1094:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)","level":"error","timestamp":"2018-11-27T17:30:58.404Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:31:13.537Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:31:14.612Z"}
+{"level":"error","timestamp":"2018-11-27T17:31:16.326Z"}
+{"level":"error","timestamp":"2018-11-27T17:31:16.502Z"}
+{"level":"error","timestamp":"2018-11-27T17:31:16.710Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:31:28.227Z"}
+{"level":"error","timestamp":"2018-11-27T17:31:28.371Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:31:29.294Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:32:33.176Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:32:35.114Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:32:53.296Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:32:54.338Z"}
+{"level":"error","timestamp":"2018-11-27T17:32:55.523Z"}
+{"level":"error","timestamp":"2018-11-27T17:32:55.684Z"}
+{"level":"error","timestamp":"2018-11-27T17:32:55.934Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:33:08.669Z"}
+{"level":"error","timestamp":"2018-11-27T17:33:09.230Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:33:09.742Z"}
