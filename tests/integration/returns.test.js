@@ -8,13 +8,13 @@ describe("/api/returns", () => {
   let movieId;
   let rental;
 
-  beforeEach(async () => {
-    server = require("../../index");
+  beforeEach(async () => { 
+    server = require("../../index"); 
 
     customerId = mongoose.Types.ObjectId();
     movieId = mongoose.Types.ObjectId();
 
-     rental = new Rental({
+    rental = new Rental({
       customer: {
         _id: customerId,
         name: "12345",
@@ -26,11 +26,10 @@ describe("/api/returns", () => {
         dailyRentalRate: 2
       }
     });
-    await rental.save();
+     await rental.save();
   });
-
   afterEach(async () => {
-    await server.close(); 
+    await server.close();
     await Rental.remove({});
   });
 
@@ -41,4 +40,5 @@ describe("/api/returns", () => {
 
     expect(res.status).toBe(401);
   });
+
 });
