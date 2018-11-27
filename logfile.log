@@ -276,3 +276,23 @@
 {"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:33:08.669Z"}
 {"level":"error","timestamp":"2018-11-27T17:33:09.230Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:33:09.742Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:34:07.063Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:34:08.192Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:34:20.714Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:34:21.855Z"}
+{"level":"error","timestamp":"2018-11-27T17:34:23.191Z"}
+{"level":"error","timestamp":"2018-11-27T17:34:23.369Z"}
+{"level":"error","timestamp":"2018-11-27T17:34:23.586Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:34:38.057Z"}
+{"level":"error","timestamp":"2018-11-27T17:34:38.234Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:34:39.084Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:35:36.296Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:35:37.439Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:35:48.442Z"}
+{"level":"error","timestamp":"2018-11-27T17:35:48.615Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:35:49.571Z"}
+{"level":"info","message":"Serveur démarrer sur le port 3000...","timestamp":"2018-11-27T17:36:09.015Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-11-27T17:36:10.081Z"}
+{"level":"error","timestamp":"2018-11-27T17:36:11.375Z"}
+{"level":"error","timestamp":"2018-11-27T17:36:11.612Z"}
+{"level":"error","timestamp":"2018-11-27T17:36:11.923Z"}
